@@ -14,7 +14,7 @@ export async function validateUserRegistration(req, res, next) {
         if (error) {
             return res.status(400).json({
                 error: error.message,
-                message: "Unable to register the account."
+                message: "Unable to create the account."
             })
         }
 
