@@ -5,7 +5,7 @@ import _ from "lodash";
 export async function validateUserRegistration(req, res, next) {
     try {
         const schema = Joi.object({
-            Username: Joi.string().min(3).required().label("Username"),
+            Username: Joi.string().min(5).required().label("Username"),
             Email: Joi.string().min(5).required().label("Email"),
             Password: Joi.string().min(5).required().label("Password")
         })
