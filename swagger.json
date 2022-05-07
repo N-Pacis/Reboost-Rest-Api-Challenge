@@ -21,7 +21,7 @@
         },
         {
             "name": "POST MODULE",
-            "description": "Module containing operations on posts"
+            "description": "Post Operations"
         }
     ],
     "paths":{
