@@ -10,7 +10,7 @@ This is a rest api system that enables users to login and register and after tha
 
     - open ".env" file
 
-    - ADD YOUT EMAIL ADDRESS AND PASSWORD TO SUPPORT EMAIL SENDING AND MAKE SURE LESS SECURE APPS IS ENABLED
+    - ADD YOUR EMAIL ADDRESS AND PASSWORD TO SUPPORT EMAIL SENDING AND MAKE SURE LESS SECURE APPS IS ENABLED
     
     - make sure the email user you write in the .env file has "less secure apps(gmail) enabled" and "displayUnlockCaptcha(google) disabled" which is required to set up the smtp server for sending emails
     
